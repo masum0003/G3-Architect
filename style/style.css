@@ -152,8 +152,9 @@ main>section {
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     justify-content: center;
-    margin-left: 40px;
-    margin-top: 50px;
+    /* margin-left: 40px;
+    margin-top: 50px; */
+    margin: 50px auto;
 }
 
 .some-facts-title {
@@ -237,7 +238,7 @@ main>section {
 
 .love-title {
     font-size: 3rem;
-    font-size: 700;
+    font-weight: 700;
     color: var(--dark-1);
     max-width: 464px;
 
@@ -290,8 +291,7 @@ main>section {
 /* Foooter */
 .footer {
     max-width: 1400px;
-    margin-top: 150px !important;
-    margin: 0px auto;
+    margin: 150px auto 0;
     /* display: flex; */
     justify-content: center;
     text-align: center;
@@ -316,7 +316,8 @@ main>section {
     }
 
     .navbar {
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        flex-direction: column;
         align-items: center;
 
     }
@@ -329,7 +330,7 @@ main>section {
 
     .nav-item {
         list-style: none;
-        margin-left: 30px;
+        
 
     }
 
@@ -343,8 +344,10 @@ main>section {
     }
 
     .nav-links {
-        flex-direction: column;
-        margin: 10px;
+        display: flex;
+        margin: 0 ;
+        padding: 0;
+        
     }
 
     /* Teams section Css Style */
